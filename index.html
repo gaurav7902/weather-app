@@ -12,9 +12,35 @@
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter city name" spellcheck="false">
-            <button><img src="images/search-icon.png" alt="Search" width="10px" height="10px"></button>
+            <button><img src="images/search.png" alt="Search"></button>
         </div>
-    </div>
+        <div class="error">
+            <p>City not found. Please try again.</p>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon" alt="Weather Icon">
+            <h1 class="temperature">22°C</h1>
+            <h2 class="city">NY</h2>
+            <div class="detail">
+                <div class="col">
+                    <img src="images/humidity.png" alt="Humidity Icon">
+                    <div>
+                        <p class="humidity">78%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="Wind Icon">
+                    <div>
+                        <p class="wind">12 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
 </body>
+
+<script src="script.js"></script>
 
 </html>
